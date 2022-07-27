@@ -19,3 +19,12 @@
   bottom: 200px;
   padding: 0 100px;
 }
+.about_bg {
+  background-color: #f4fafd;
+}
+.join_us_content {
+  width: 70%;
+}
+.join_us_btn {
+  margin-top: 70px;
+}
