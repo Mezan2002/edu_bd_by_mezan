@@ -4,7 +4,7 @@
 * {
   font-family: "Poppins", sans-serif;
 }
-.carousel-item::before {
+.slider_overlay::before {
   content: "";
   display: block;
   position: absolute;
@@ -15,7 +15,7 @@
   background: #000;
   opacity: 0.4;
 }
-.carousel-caption {
+.slider_caption_center {
   bottom: 200px;
   padding: 0 100px;
 }
