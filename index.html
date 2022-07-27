@@ -279,16 +279,16 @@
     </header>
     <!-- header end -->
     <main class="container">
-        <!-- courses start -->
+      <!-- courses start -->
       <section class="my-5" id="courses">
         <div class="section_header w-auto mx-auto text-center my-md-5 pt-md-5">
-            <h2 class="fw-bold">Discover Our Popular Courses</h2>
-            <p class="text-muted">
-              Start, switch, or advance your career with more than 5,000 courses,
-              Professional Certificates, and degrees from world-class universities
-              and companies.
-            </p>
-          </div>
+          <h2 class="fw-bold">Discover Our Popular Courses</h2>
+          <p class="text-muted">
+            Start, switch, or advance your career with more than 5,000 courses,
+            Professional Certificates, and degrees from world-class universities
+            and companies.
+          </p>
+        </div>
         <div class="row my-5 py-5 g-4">
           <div class="col-lg-6">
             <div
@@ -414,7 +414,7 @@
       <!-- courses end -->
 
       <!-- about us start -->
-      <section class="my-5 pt-5" id="about_us">
+      <!-- <section class="my-5 pt-5" id="about_us">
         <div class="container">
           <div class="row g-0">
             <div class="col-md-5">
@@ -454,56 +454,223 @@
             </div>
           </div>
         </div>
-      </section>
+      </section> -->
       <!-- about us end -->
 
       <!-- join us start -->
       <section class="my-5 py-5" id="join_us">
-        <div class="join_us bg-primary rounded-3 d-flex align-items-center">
-            <div class="join_us_content text-white p-5">
-                <h1 class="px-5 pt-5">Ready to join?</h1>
-                <p class="p-5">We are ready to build you a perfect experienced man on your passion. You don't have to do any thing just join us . Are you ready to join us...?</p>
-            </div>
-                <div class="join_us_btn p-5">
+        <div
+          class="join_us bg-primary rounded-3 d-flex align-items-center d-none d-lg-inline-flex"
+        >
+          <div class="join_us_content text-white p-5">
+            <h1 class="px-5 pt-5">Ready to join?</h1>
+            <p class="p-5">
+              We are ready to build you a perfect experienced man on your
+              passion. You don't have to do any thing just join us . Are you
+              ready to join us...?
+            </p>
+          </div>
+          <div class="join_us_btn p-5">
             <!-- Button trigger modal -->
-                    <button type="button" class="btn btn-dark py-3 px-5" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                        Register
+            <button
+              type="button"
+              class="btn btn-dark py-3 px-5"
+              data-bs-toggle="modal"
+              data-bs-target="#exampleModal"
+            >
+              Register
+            </button>
+
+            <!-- Modal -->
+            <div
+              class="modal fade"
+              id="exampleModal"
+              tabindex="-1"
+              aria-labelledby="exampleModalLabel"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">
+                      Register Now
+                    </h5>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="modal-body">
+                    <form action="">
+                      <input
+                        class="form-control"
+                        type="text"
+                        name=""
+                        id=""
+                        placeholder="First Name"
+                        required
+                      />
+                      <input
+                        class="form-control my-4"
+                        type="text"
+                        name=""
+                        id=""
+                        placeholder="Last Name"
+                        required
+                      />
+                      <input
+                        class="form-control"
+                        type="email"
+                        name=""
+                        id=""
+                        placeholder="Your Email"
+                        required
+                      />
+                      <input
+                        class="form-control my-4"
+                        type="number"
+                        name=""
+                        id=""
+                        placeholder="Your Phone Number"
+                        required
+                      />
+                      <p class="fw-bold">Choice Your Courses:</p>
+                      <input class="" type="checkbox" name="" id="" />
+                      <label for="#">UI/UX Design</label><br />
+                      <input class="" type="checkbox" name="" id="" />
+                      <label for="#">JavaScript Basic</label><br />
+                      <input class="" type="checkbox" name="" id="" />
+                      <label for="#">Full Stack Web Development</label><br />
+                      <input class="" type="checkbox" name="" id="" />
+                      <label for="#">Photography Basic</label><br />
+                    </form>
+                  </div>
+                  <div class="modal-footer">
+                    <button
+                      type="button"
+                      class="btn btn-secondary"
+                      data-bs-dismiss="modal"
+                    >
+                      Close
                     </button>
-                    
-                    <!-- Modal -->
-                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                        <div class="modal-dialog">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                            <h5 class="modal-title" id="exampleModalLabel">Register Now</h5>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                            </div>
-                            <div class="modal-body">
-                            <form action="">
-                                <input class="form-control" type="text" name="" id="" placeholder="First Name" required>
-                                <input class="form-control my-4" type="text" name="" id="" placeholder="Last Name" required>
-                                <input class="form-control" type="email" name="" id="" placeholder="Your Email" required>
-                                <input class="form-control my-4" type="number" name="" id="" placeholder="Your Phone Number" required>
-                                <p class="fw-bold">Choice Your Courses: </p>
-                                <input class="" type="checkbox" name="" id="">
-                                <label for="#">UI/UX Design</label><br>
-                                <input class="" type="checkbox" name="" id="">
-                                <label for="#">JavaScript Basic</label><br>
-                                <input class="" type="checkbox" name="" id="">
-                                <label for="#">Full Stack Web Development</label><br>
-                                <input class="" type="checkbox" name="" id="">
-                                <label for="#">Photography Basic</label><br>
-                            </form>
-                            </div>
-                            <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                            <button type="submit" class="btn btn-primary">Submit</button>
-                        </div>
-                    </div>
+                    <button type="submit" class="btn btn-primary">
+                      Submit
+                    </button>
+                  </div>
                 </div>
-            </div>  
+              </div>
+            </div>
+          </div>
         </div>
-    </div>
+        <!-- join us for md and sm start -->
+        <div
+          class="join_us bg-primary rounded-3 d-flex align-items-center d-block d-lg-none flex-column"
+        >
+          <div class="join_us_content text-white text-center">
+            <h1 class="p-3">Ready to join?</h1>
+            <p class="">
+              We are ready to build you a perfect experienced man on your
+              passion. You don't have to do any thing just join us . Are you
+              ready to join us...?
+            </p>
+          </div>
+          <div class="join_us_btn pb-4">
+            <!-- Button trigger modal -->
+            <button
+              type="button"
+              class="btn btn-dark py-3 px-5"
+              data-bs-toggle="modal"
+              data-bs-target="#exampleModal"
+            >
+              Register
+            </button>
+
+            <!-- Modal -->
+            <div
+              class="modal fade"
+              id="exampleModal"
+              tabindex="-1"
+              aria-labelledby="exampleModalLabel"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog modal-sm modal-fullscreen-sm-down">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">
+                      Register Now
+                    </h5>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="modal-body">
+                    <form action="">
+                      <input
+                        class="form-control"
+                        type="text"
+                        name=""
+                        id=""
+                        placeholder="First Name"
+                        required
+                      />
+                      <input
+                        class="form-control my-4"
+                        type="text"
+                        name=""
+                        id=""
+                        placeholder="Last Name"
+                        required
+                      />
+                      <input
+                        class="form-control"
+                        type="email"
+                        name=""
+                        id=""
+                        placeholder="Your Email"
+                        required
+                      />
+                      <input
+                        class="form-control my-4"
+                        type="number"
+                        name=""
+                        id=""
+                        placeholder="Your Phone Number"
+                        required
+                      />
+                      <p class="fw-bold">Choice Your Courses:</p>
+                      <input class="" type="checkbox" name="" id="" />
+                      <label for="#">UI/UX Design</label><br />
+                      <input class="" type="checkbox" name="" id="" />
+                      <label for="#">JavaScript Basic</label><br />
+                      <input class="" type="checkbox" name="" id="" />
+                      <label for="#">Full Stack Web Development</label><br />
+                      <input class="" type="checkbox" name="" id="" />
+                      <label for="#">Photography Basic</label><br />
+                    </form>
+                  </div>
+                  <div class="modal-footer">
+                    <button
+                      type="button"
+                      class="btn btn-secondary"
+                      data-bs-dismiss="modal"
+                    >
+                      Close
+                    </button>
+                    <button type="submit" class="btn btn-primary">
+                      Submit
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- join us for md and sm end -->
       </section>
       <!-- join us end -->
     </main>
