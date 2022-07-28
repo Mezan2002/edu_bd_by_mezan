@@ -34,3 +34,21 @@
 .card_top i {
   color: rgb(255, 196, 0);
 }
+.card_btn_pre {
+  position: absolute;
+  left: -12%;
+  background-color: #0d6efd;
+  margin-right: 14px;
+  padding: 5px 15px;
+  font-size: 20px;
+  border-radius: 50%;
+}
+.card_btn_next {
+  position: absolute;
+  right: -20%;
+  background-color: #0d6efd;
+  margin-right: 14px;
+  font-size: 20px;
+  padding: 5px 15px;
+  border-radius: 50%;
+}
