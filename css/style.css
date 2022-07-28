@@ -4,6 +4,16 @@
 * {
   font-family: "Poppins", sans-serif;
 }
+.edu_bd_bg {
+  background-color: #289bde;
+}
+.edu_bd_text {
+  color: #289bde;
+}
+.top_btn {
+  border: 1px solid #289bde;
+  border-radius: 5px;
+}
 .slider_overlay::before {
   content: "";
   display: block;
@@ -37,17 +47,17 @@
 .card_btn_pre {
   position: absolute;
   left: -12%;
-  background-color: #77acfd;
+  background-color: #83b5ff;
   margin-right: 14px;
   padding: 5px 15px;
   font-size: 20px;
   border-radius: 50%;
 }
 .card_btn_pre:hover {
-  background-color: #0d6efd;
+  background-color: #289bde;
 }
 .card_btn_next:hover {
-  background-color: #0d6efd;
+  background-color: #289bde;
 }
 .btn_opacity {
   opacity: 1;
