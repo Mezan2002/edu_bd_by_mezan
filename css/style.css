@@ -62,3 +62,13 @@
   border-radius: 50%;
   opacity: 1;
 }
+footer {
+  background-color: #161616;
+}
+.social_links span i {
+  background-color: #242424;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  padding-top: 13px;
+}
