@@ -28,3 +28,9 @@
 .join_us_btn {
   margin-top: 70px;
 }
+.card_top img {
+  width: 15%;
+}
+.card_top i {
+  color: rgb(255, 196, 0);
+}
