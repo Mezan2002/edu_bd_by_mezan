@@ -65,10 +65,11 @@
 footer {
   background-color: #161616;
 }
-.social_links span i {
+.social_links a i {
   background-color: #242424;
   height: 50px;
   width: 50px;
   border-radius: 50%;
   padding-top: 13px;
+  color: white;
 }
